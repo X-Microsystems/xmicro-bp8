@@ -1,0 +1,126 @@
+Partlist
+
+Exported from XMICRO-BP8.sch at 1/14/2018 3:16:23 PM
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value                       Device                      Package      Library             Sheet
+
+0        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+1        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+2        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+3        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+4        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+5        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+6        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+7        XMICRO-BUS-PHYSICAL-EDGE62F XMICRO-BUS-PHYSICAL-EDGE62F EDGE62F      Custom              1
+C1       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C2       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C3       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C4       0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C5       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C6       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C7       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C8       0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C9       0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C10      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C11      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C12      0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C13      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C14      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C15      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C16      0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C17      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C18      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C19      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C20      0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C21      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C22      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C23      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C24      0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C25      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C26      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C27      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C28      0.1uF                       C-US050-024X044             C050-024X044 resistor            1
+C29      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C30      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C31      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C32      0.1uF                       C-US025-024X044             C025-024X044 resistor            1
+C34      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C35      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C36      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C37      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C38      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C39      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C40      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C41      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C42      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C43      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C44      0.1uF                       C-US025-024X044             C025-024X044 resistor            3
+C45      22uF 5V 1.5 Ohm ESR         CPOL-USE2.5-7               E2,5-7       rcl                 3
+C46      0.1uF                       C-US050-024X044             C050-024X044 resistor            3
+C47      100uF 25V                   CPOL-US-10-5                C-10-5       Custom              2
+C48      220uF 10V                   CPOL-US-10-5                C-10-5       Custom              2
+C49      220uF 10V                   CPOL-US-10-5                C-10-5       Custom              2
+C50      100uF 25V                   CPOL-US-10-5                C-10-5       Custom              2
+C51      220uF 10V                   CPOL-US-10-5                C-10-5       Custom              2
+C52      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C53      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C54      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C55      10nF                        C-US025-024X044             C025-024X044 resistor            2
+C56      0.1uF                       C-US025-024X044             C025-024X044 resistor            2
+C57      10uF                        CPOL-USE2.5-7               E2,5-7       rcl                 2
+D1       1N5817                      1N5817-B                    DO41-7.6     diode               3
+D2       GREEN                       LED5MM                      LED5MM       led                 2
+D3       RED                         LED5MM                      LED5MM       led                 2
+J1       ATX24                       ATX24                       ATX24        Custom              2
+J2                                   PINHD-1X2THRU               1X02         Custom              2
+JP1      PINHD1X3THRU                PINHD1X3THRU                1X03         Custom              3
+JP2      PINHD1X3THRU                PINHD1X3THRU                1X03         Custom              3
+JP3                                  PINHD-1X2THRU               1X02         Custom              3
+JP4                                  PINHD-1X2THRU               1X02         Custom              5
+JP5                                  PINHD1X3THRU                1X03         Custom              2
+JP6                                  PINHD1X3THRU                1X03         Custom              2
+JP7                                  PINHD-1X2THRU               1X02         Custom              2
+Q1       2N5088                      TRANSISTOR-NPN-2N5088       TO92         Custom              2
+Q2       2N4403                      TRANSISTOR-PNP-2N4403       TO92         Custom              2
+Q3       2N5088                      TRANSISTOR-NPN-2N5088       TO92         Custom              2
+R1       270                         R-US_0207/10                0207/10      resistor            3
+R2       270                         R-US_0207/10                0207/10      resistor            3
+R3       0                           R-US_0207/10                0207/10      resistor            4
+R4       0                           R-US_0207/10                0207/10      resistor            4
+R5       10k                         R-US_0207/10                0207/10      resistor            5
+R6       100k                        R-US_0207/10                0207/10      resistor            2
+R7       200k                        R-US_0207/10                0207/10      resistor            2
+R8       47k                         R-US_0207/10                0207/10      resistor            2
+R9       100k                        R-US_0207/10                0207/10      resistor            2
+R10      22k                         R-US_0207/10                0207/10      resistor            2
+R11      220                         R-US_0207/10                0207/10      resistor            2
+R12      220                         R-US_0207/10                0207/10      resistor            2
+RN1      270                         G08R                        SIL9         resistor-sil        3
+RN2      270                         G08R                        SIL9         resistor-sil        3
+RN3      270                         G08R                        SIL9         resistor-sil        3
+RN4      270                         G08R                        SIL9         resistor-sil        3
+RN5      270                         G08R                        SIL9         resistor-sil        3
+RN6      270                         G08R                        SIL9         resistor-sil        3
+RN7      270                         G08R                        SIL9         resistor-sil        3
+RN8      270                         G08R                        SIL9         resistor-sil        3
+RN9      270                         G08R                        SIL9         resistor-sil        3
+RN10     270                         G08R                        SIL9         resistor-sil        3
+RN11     270                         G08R                        SIL9         resistor-sil        3
+RN12     270                         G08R                        SIL9         resistor-sil        3
+RN13     3.3k                        G08R                        SIL9         resistor-sil        4
+RN14     3.3k                        G08R                        SIL9         resistor-sil        4
+RN15     10k                         G08R                        SIL9         resistor-sil        5
+S1       SPDTT411013                 SPDTT411013                 T411013      Custom              2
+S2                                   SW-DIP08                    SW-DIP8      Custom              5
+U1       7408                        74LS08N                     DIL14        74xx-us             2
+U2       7404                        74LS04N                     DIL14        74xx-us             2
+U3       7430                        74LS30N                     DIL14        74xx-us             4
+U4       7430                        74LS30N                     DIL14        74xx-us             4
+U5       TL-SCSI285                  TL-SCSI285-TO220H           TO220H       Custom              3
+U7       74138                       74LS138N                    DIL16        74xx-us             5
+U8       74688                       74LS688N                    DIL20        74xx-us             5
+U9       555                         NE555                       DIL-08       st-microelectronics 2
