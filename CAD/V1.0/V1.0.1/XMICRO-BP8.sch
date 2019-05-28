@@ -20147,8 +20147,8 @@ Misc. capacitors and extra gates</text>
 <instances>
 <instance part="J1" gate="G$1" x="114.3" y="187.96"/>
 <instance part="J2" gate="G$1" x="162.56" y="185.42"/>
-<instance part="C48" gate="G$1" x="251.46" y="200.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="250.444" y="201.295" size="1.778" layer="95" rot="MR0"/>
+<instance part="C48" gate="G$1" x="254" y="200.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="255.016" y="200.025" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="C49" gate="G$1" x="251.46" y="193.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="250.444" y="193.675" size="1.778" layer="95" rot="MR0"/>
@@ -20255,7 +20255,6 @@ Misc. capacitors and extra gates</text>
 <nets>
 <net name="GND" class="1">
 <segment>
-<label x="83.82" y="167.64" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="GND@7"/>
 <wire x1="96.52" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="185.42" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
@@ -20287,9 +20286,9 @@ Misc. capacitors and extra gates</text>
 <wire x1="99.06" y1="182.88" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <junction x="96.52" y="182.88"/>
 <junction x="96.52" y="167.64"/>
+<label x="75.438" y="167.64" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="182.88" y="177.8" size="1.016" layer="95" xref="yes"/>
 <wire x1="170.18" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="177.8" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
@@ -20297,9 +20296,10 @@ Misc. capacitors and extra gates</text>
 <wire x1="172.72" y1="185.42" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
 <junction x="172.72" y="177.8"/>
 <pinref part="S1" gate="G$1" pin="P$1"/>
+<label x="182.88" y="177.8" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C48" gate="G$1" pin="-"/>
+<pinref part="C48" gate="G$1" pin="+"/>
 <wire x1="256.54" y1="200.66" x2="259.08" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C47" gate="G$1" pin="-"/>
 <wire x1="259.08" y1="200.66" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
@@ -20396,7 +20396,6 @@ Misc. capacitors and extra gates</text>
 </segment>
 <segment>
 <wire x1="129.54" y1="205.74" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
-<label x="137.16" y="205.74" size="1.016" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="3.3V@0"/>
 <wire x1="127" y1="205.74" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="205.74" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
@@ -20407,6 +20406,7 @@ Misc. capacitors and extra gates</text>
 <wire x1="127" y1="203.2" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <junction x="129.54" y="203.2"/>
 <junction x="129.54" y="205.74"/>
+<label x="146.304" y="205.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="259.08" y1="104.14" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
@@ -20418,19 +20418,19 @@ Misc. capacitors and extra gates</text>
 <segment>
 <wire x1="248.92" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
 <label x="241.3" y="200.66" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="C48" gate="G$1" pin="+"/>
+<pinref part="C48" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<label x="137.16" y="180.34" size="1.016" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="-12V"/>
 <wire x1="127" y1="180.34" x2="137.16" y2="180.34" width="0.1524" layer="91"/>
+<label x="145.542" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PG" class="0">
 <segment>
 <wire x1="127" y1="172.72" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
-<label x="137.16" y="172.72" size="1.016" layer="95" rot="MR180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="PWR_OK"/>
+<label x="140.97" y="172.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
@@ -20441,13 +20441,13 @@ Misc. capacitors and extra gates</text>
 <net name="+12V" class="0">
 <segment>
 <wire x1="129.54" y1="187.96" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
-<label x="137.16" y="187.96" size="1.016" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="12V@0"/>
 <wire x1="127" y1="187.96" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="187.96" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="12V@1"/>
 <wire x1="129.54" y1="185.42" x2="127" y2="185.42" width="0.1524" layer="91"/>
 <junction x="129.54" y="187.96"/>
+<label x="145.796" y="187.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="248.92" y1="177.8" x2="241.3" y2="177.8" width="0.1524" layer="91"/>
@@ -20458,8 +20458,8 @@ Misc. capacitors and extra gates</text>
 <net name="+5VSB" class="0">
 <segment>
 <wire x1="99.06" y1="190.5" x2="83.82" y2="190.5" width="0.1524" layer="91"/>
-<label x="83.82" y="190.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="5V_STDBY"/>
+<label x="74.168" y="190.5" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="248.92" y1="185.42" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
@@ -20486,7 +20486,6 @@ Misc. capacitors and extra gates</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<label x="83.82" y="205.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="5V@4"/>
 <wire x1="96.52" y1="205.74" x2="83.82" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="205.74" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
@@ -20506,6 +20505,7 @@ Misc. capacitors and extra gates</text>
 <wire x1="99.06" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
 <junction x="96.52" y="203.2"/>
 <junction x="96.52" y="205.74"/>
+<label x="75.438" y="205.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="248.92" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
@@ -20595,9 +20595,9 @@ Misc. capacitors and extra gates</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="210.82" y="99.06" size="1.016" layer="95" xref="yes"/>
 <pinref part="JP7" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
+<label x="218.948" y="99.06" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -21907,16 +21907,16 @@ card slot into a single signal.</text>
 </net>
 <net name="!CBR" class="0">
 <segment>
-<label x="172.72" y="66.04" size="1.016" layer="95" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
+<label x="181.102" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CINH" class="0">
 <segment>
-<label x="200.66" y="132.08" size="1.016" layer="95" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
+<label x="209.55" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -22085,57 +22085,57 @@ match the programmed value.</text>
 <net name="!CS7" class="0">
 <segment>
 <wire x1="187.96" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
-<label x="195.58" y="137.16" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y7"/>
+<label x="203.708" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS0" class="0">
 <segment>
 <wire x1="187.96" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<label x="195.58" y="154.94" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y0"/>
+<label x="203.708" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS1" class="0">
 <segment>
 <wire x1="187.96" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<label x="195.58" y="152.4" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y1"/>
+<label x="203.708" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS2" class="0">
 <segment>
 <wire x1="187.96" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="195.58" y="149.86" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y2"/>
+<label x="203.708" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS3" class="0">
 <segment>
 <wire x1="187.96" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="195.58" y="147.32" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y3"/>
+<label x="203.708" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS4" class="0">
 <segment>
 <wire x1="187.96" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
-<label x="195.58" y="144.78" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y4"/>
+<label x="203.708" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS5" class="0">
 <segment>
 <wire x1="187.96" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
-<label x="195.58" y="142.24" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y5"/>
+<label x="203.708" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS6" class="0">
 <segment>
 <wire x1="187.96" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
-<label x="195.58" y="139.7" size="1.016" layer="95" xref="yes"/>
 <pinref part="U7" gate="A" pin="Y6"/>
+<label x="203.708" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -22195,7 +22195,7 @@ match the programmed value.</text>
 <wire x1="157.48" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <junction x="157.48" y="121.92"/>
-<label x="165.1" y="121.92" size="1.016" layer="95" xref="yes"/>
+<label x="175.768" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
