@@ -1,9 +1,0 @@
-XMICRO-BP8
-	C48 Polarity is reversed
-	Power-on Reset is flaky.
-		Hardware V1 fix is to tie R11 to +5VSB. This provides more stability when turning on.
-		Later versions should be reworked so that RESET is held low at all times if PG signal is not high.
-	Reset indicator LED was sometimes partially on when RESET was high. Added a 10k pullup to the base of Q2.
-	Using 470R for R11 and 270R for R12.
-	Ground pour can be tighter, but thermals should be embiggened.
-	Probably a good idea to add some clamping diodes.
